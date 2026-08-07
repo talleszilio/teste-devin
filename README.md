@@ -27,5 +27,3 @@ Este projeto foi configurado para simular um ambiente de desenvolvimento real co
 - Code review simulation
 
 ## Autor
-
-Talles Zilio - talleszilio@gmail.com
