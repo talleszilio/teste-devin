@@ -19,7 +19,8 @@ function toTitleCase(str) {
  * @returns {boolean} True se válido, false caso contrário
  */
 function validateEmail(email) {
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    // Regex melhorado para aceitar subdomínios
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+(\.[^\s@]+)*$/;
     return regex.test(email);
 }
 
