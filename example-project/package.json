@@ -1,0 +1,26 @@
+{
+  "name": "awesome-text-processor",
+  "version": "1.0.0",
+  "description": "A powerful text processing utility library",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "text",
+    "processing",
+    "utility",
+    "string"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.50.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
