@@ -28,4 +28,3 @@ Este projeto foi configurado para simular um ambiente de desenvolvimento real co
 
 ## Autor
 
-Talles Zilio - talleszilio@gmail.com
