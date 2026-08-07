@@ -25,7 +25,3 @@ Este projeto foi configurado para simular um ambiente de desenvolvimento real co
 - Pull requests
 - GitHub Actions para CI/CD
 - Code review simulation
-
-## Autor
-
-Talles Zilio - talleszilio@gmail.com
