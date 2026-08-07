@@ -37,6 +37,14 @@ describe('Utils', () => {
         test('deve rejeitar email sem domínio', () => {
             expect(validateEmail('talleszilio@')).toBe(false);
         });
+        
+        test('deve validar email com subdomínio', () => {
+            expect(validateEmail('user@sub.domain.com')).toBe(true);
+        });
+        
+        test('deve validar email com múltiplos subdomínios', () => {
+            expect(validateEmail('user@mail.sub.domain.com')).toBe(true);
+        });
     });
     
     describe('generateId', () => {

@@ -1,0 +1,5 @@
+{
+  "title": "Bug: Validar email com subdomínio",
+  "body": "A função validateEmail não está validando corretamente emails com subdomínios como user@sub.domain.com. Isso precisa ser corrigido para aceitar emails válidos com subdomínios.",
+  "labels": ["bug", "enhancement"]
+}
