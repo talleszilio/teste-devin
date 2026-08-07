@@ -17,4 +17,5 @@ const customProcessor = new TextProcessor({
   trimWhitespace: true
 });
 
+#VOU ADICIONAR ESSA LINHA AQUI, IMAGINE QUE ISSO É UM BLOCO DE CÓDIGO QUE REALMENTE PRESTA PARA ALGO
 console.log('\nCustom processor:', customProcessor.process('  Mixed CASE Text  '));
